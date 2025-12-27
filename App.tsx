@@ -82,7 +82,7 @@ const App: React.FC = () => {
       <div className="text-center mb-10">
         <h1 className="text-4xl font-extrabold text-slate-800 mb-2 flex items-center justify-center gap-3">
           <span className="text-rose-500"><i className="fas fa-utensils"></i></span>
-          점심 룰렛
+          오늘의 점메추
         </h1>
         <p className="text-slate-500">
           {view === 'input' ? '회사 근처 식당 리스트를 입력하세요.' : '중앙의 STOP 버튼을 눌러보세요!'}
